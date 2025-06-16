@@ -1,0 +1,48 @@
+# ===========================================
+# 전체 프로젝트 공통 .gitignore
+# ===========================================
+
+# OS 생성 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 설정 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+*.log
+logs/
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# Docker 볼륨 데이터
+postgres_primary_data/
+postgres_standby_data/
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 압축 파일
+*.zip
+*.tar.gz
+*.rar
+
+# 기타 동적 생성 파일
+.cache/
+.npm/
+.yarn/ 

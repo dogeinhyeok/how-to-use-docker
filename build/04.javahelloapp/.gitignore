@@ -1,0 +1,25 @@
+# Java Maven 프로젝트 .gitignore
+
+# Maven 빌드 결과물
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Java 컴파일 결과물
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE 파일
+.idea/
+*.iml
+.vscode/
+
+# 로그 파일
+*.log 

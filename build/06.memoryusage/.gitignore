@@ -1,0 +1,35 @@
+# Python 프로젝트 .gitignore
+
+# Python 바이트코드
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 배포 패키지
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# IDE 파일
+.idea/
+.vscode/
+*.pyc
+
+# 로그 파일
+*.log
+
+# 테스트 결과물
+.pytest_cache/
+.coverage
+htmlcov/ 

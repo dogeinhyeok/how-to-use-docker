@@ -1,0 +1,25 @@
+# Go 프로젝트 .gitignore
+
+# Go 빌드 결과물
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+helloworld
+go-world/
+
+# Go 테스트 결과물
+*.test
+*.out
+
+# Go 모듈 캐시
+go.sum
+vendor/
+
+# IDE 파일
+.idea/
+.vscode/
+
+# 로그 파일
+*.log 
